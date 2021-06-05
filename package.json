@@ -1,0 +1,30 @@
+{
+    "name": "shades-of-violet",
+    "displayName": "Shades-of-Violet",
+    "description": "Dark Violet theme for vs code.",
+    "publisher": "bakrimoharram",
+    "author": {
+        "name": "Bakri Moharram",
+        "email": "bakri_moharram@hotmail.com"
+    },
+    "repository": {
+        "url": "https://github.com/bakrimoharram/purple-blue-theme.git",
+        "type": "git"
+    },
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Shades-of-Violet",
+                "uiTheme": "vs-dark",
+                "path": "./themes/shades-of-violet.json"
+            }
+        ]
+    }
+}
